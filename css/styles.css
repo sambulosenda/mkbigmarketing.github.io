@@ -63,3 +63,19 @@ body {
 
 .newssection {
   padding-top: 15px; }
+
+
+.cardnews {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    color: white;
+    word-wrap: break-word;
+    background-color: #212529;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+}

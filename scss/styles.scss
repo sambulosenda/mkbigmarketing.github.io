@@ -1,0 +1,80 @@
+$bg-color: #f8f8f8; 
+$card-color: #f1f1f1;
+
+
+body {
+    background: $bg-color;
+    font-family: 'Raleway', sans-serif;
+}
+
+.headertitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.43;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #EC5252;
+    border: 1px solid transparent;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 11px 12px;
+    font-size: 15px;
+    line-height: 1.35135;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #992337;
+    border-color: transparent;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 16px 12px;
+    font-size: 15px;
+    line-height: 1.35135;
+    border-radius: 2px;
+}
+
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: $card-color;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+
+.buttomsite{
+    padding-top: 15px;
+}
+
+.newssection {
+    padding-top: 15px;
+}

@@ -79,3 +79,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: .25rem;
 }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
